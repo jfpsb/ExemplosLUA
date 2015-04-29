@@ -1,4 +1,3 @@
-print("---> Crie um programa que lê três inteiros e informa VERDADEIRO se apenas o maior deles é par ou se o menor deles é ímpar ou informa FALSO em caso contrário. <---")
 print("Digite três números diferentes: ")
 n1, n2, n3 = io.read("*number", "*number", "*number")
 
