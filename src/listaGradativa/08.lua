@@ -2,7 +2,7 @@ vetor = {}
 math.randomseed(os.time())
 
 for i=1, 100 do
-  vetor[i] = math.random(1, 100) 
+  vetor[i] = math.random(-100, 100)
 end
 
 maior = vetor[1]
@@ -14,4 +14,3 @@ for i=1, 100 do
 end
 
 print(maior)
-
